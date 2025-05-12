@@ -30,7 +30,7 @@ Open-face Chinese Poker is a stochastic, perfect-information zero-sum game playe
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ofc-trainer.git
+git clone https://github.com/yagyesh-bobde/ofc-trainer.git
 cd ofc-trainer
 
 # Install dependencies
@@ -41,6 +41,7 @@ pip install -r requirements.txt
 
 ```bash
 python -m src.trainer
+python -m src.trainer --mode play --player1 human --player2 greedy
 ```
 
 ## Features
